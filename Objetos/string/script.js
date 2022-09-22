@@ -30,7 +30,7 @@ transacoes.forEach((item) => {
   const numeroLimpo = +item.valor.replace('R$ ', '');
   if (item.descricao.slice(0,4)) { 
     taxaTotal = taxaTotal + numeroLimpo;
-  } else if {
+  } else if { 
     recebimentoTotal = recebimentoTotal + numeroLimpo;
   }
 });
